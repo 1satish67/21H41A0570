@@ -41,7 +41,7 @@ super(frameText);
 int tempX=TOPX, y=TOPY;
 displayLabel.setBounds(tempX,y,240,HEIGHT);
 displayLabel.setBackground(Color.BLACK);
-displayLabel.setForeground(Color.GREEN);
+displayLabel.setForeground(Color.BLUE);
 add(displayLabel);
 
 memLabel.setBounds(TOPX,  TOPY+HEIGHT+ V_SPACE,WIDTH, HEIGHT);
